@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginActivity">
+
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.questionbank.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/registerActivity"
+        android:name="com.example.questionbank.RegisterActivity"
+        android:label="activity_register"
+        tools:layout="@layout/activity_register" />
+    <activity
+        android:id="@+id/homeActivity"
+        android:name="com.example.questionbank.HomeActivity"
+        android:label="activity_home"
+        tools:layout="@layout/activity_home" />
+    <activity
+        android:id="@+id/topicQuestionsActivity"
+        android:name="com.example.questionbank.TopicQuestionsActivity"
+        android:label="activity_topic_questions"
+        tools:layout="@layout/activity_topic_questions" />
+    <activity
+        android:id="@+id/questionDetailActivity"
+        android:name="com.example.questionbank.QuestionDetailActivity"
+        android:label="activity_question_detail"
+        tools:layout="@layout/activity_question_detail" />
+</navigation>
